@@ -20,5 +20,5 @@ def decompression(source, target):
     tar.close()
 
 
-print(compression('E:\\PycharmProjects\\test'))  # compression dir save to E:\PycharmProjects\test.tar.bz2
-decompression('E:\\PycharmProjects\\test.tar.bz2', target='e:\\')  # decompression dir to e:\\test
+print(compression('E:\\PycharmProjects\\test'))  # compression the file to E:\PycharmProjects\test.tar.bz2
+decompression('E:\\PycharmProjects\\test.tar.bz2', target='e:\\')  # decompression the file to e:\\test
